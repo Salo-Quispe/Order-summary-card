@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background: url(pattern-background-desktop.svg);
+    background-position: left;
+    background-attachment: contain;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.contenedor {
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.conten-text{
+    padding: 25px;
+    background-color: white;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.titulo~p {
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 16px;
+    line-height: 25px;
+}
+
+
+.cont {
+    background: hsla(225, 100%, 94%, 0.337);
+    border-radius: 10px;
+    padding: 5px 16px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25.6px;
+}
+
+div img {
+    width: 45px;
+}
+
+div h2 {
+    line-height: 180%;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.cont1 {
+    margin: 10px;
+    margin-right: 40px;
+    background-color: hsla(225, 100%, 94%, 0.337);
+}
+
+h2~p {
+    line-height: 180%;
+    color: gray;
+    font-size: 14px;
+}
+
+.change {
+    font-size: small;
+    color: rgb(104, 104, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+div h3{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 11px;
+    padding: 12.8px 25.6px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    box-shadow: 0 15px 20px rgba(56, 41, 224, 0.3);
+}
+.cancelar{
+    text-align: center;
+    font-size: 13px;
+    padding: 30px 25.6px;
+    color: gray;
+}
