@@ -1,6 +1,44 @@
 * {
     margin: 0;
-    box-sizing: border-box;
+}
+
+main {
+    position: static;
+    display: flex;
+    align-items: center;
+    background:   #cad4f7;
+}
+
+.curve {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.curve::before {
+    content: '';
+    display: flex;
+    position: relative;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    transform: translate(81.9%, 70%);
+    background-color:  white ;
+
+}
+
+.curve::after {
+    content: '';
+    display: flex;
+    position: relative;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color:  #cad4f7;
+    transform: translate(-5%, -160%);
+    z-index: -1;
 }
 
 .body {
@@ -12,10 +50,11 @@
 }
 
 .contenedor {
+    position: relative;
     background-color: white;
     width: 350px;
     height: 500px;
-    margin: 100px auto;
+    margin: -100px auto;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
